@@ -1,0 +1,40 @@
+.inicio {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 40px;
+}
+
+.inicio-cursos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color: var(--primary-750);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.card h2 {
+    font-size: 20px;
+    color: var(--primary-800);
+}
+
+.card img {
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+a h2 {
+    margin: 0;
+    padding: 0;
+}
