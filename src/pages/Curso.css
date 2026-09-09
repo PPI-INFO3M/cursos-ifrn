@@ -2,4 +2,10 @@
     border-radius: 60px;
     background-color: var(--primary-50);
     margin: 0 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
+
+.cont-atuacao

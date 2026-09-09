@@ -5,6 +5,7 @@ import Inicio from './pages/Inicio'
 import Informática from './pages/Informática'
 import Alimentos from './pages/Alimentos'
 import Apicultura from './pages/Apicultura'
+import Error from './pages/Error'
 import './App.css'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/informatica" element={<Informática />} />
           <Route path="/alimentos" element={<Alimentos />} />
           <Route path="/apicultura" element={<Apicultura />} />
+          <Route path="*" element={<Error />}/>
         </Routes>
       </main>
 
